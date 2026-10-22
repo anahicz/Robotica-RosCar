@@ -7,7 +7,13 @@ Este repositorio reunirá el código, las configuraciones, la documentación y l
 **Etapa actual:** RC-0 — Primer arranque y calibración del robot.  
 **Periodo académico:** 2026-2.  
 **Sección:** S-003.  
-**Estado:** documentación inicial; las implementaciones y los resultados experimentales se incorporarán conforme se realicen.
+**Estado:** paquete de Parte A preparado; instalación y verificación en el carro pendientes.
+
+## Puesta en marcha de la Parte A
+
+El paquete propio `capytown_esan` incorpora un adaptador de `/odom_raw` a `/odom` y `/tf`, utilizando el agente micro-ROS que ya está activo en otro contenedor. La [guía de Parte A](docs/parte_a.md) explica la instalación sin Internet en el carro, la función de cada archivo y las verificaciones pendientes. El estado inicial observado está en [setup_log.txt](setup_log.txt).
+
+Esta versión conserva la odometría de origen. Las calibraciones de `r` y `b_eff` se desarrollarán después de comprobar cómo se aplican al modelo real del robot.
 
 ## Objetivo
 
@@ -115,3 +121,4 @@ El código, la configuración y las evidencias se organizarán por separado. Los
 - Presentación del robot: `MicroROS-Pi5 (2).pptx`.
 
 La documentación se actualizará con los comandos verificados en el laboratorio y las mediciones reales del equipo.
+

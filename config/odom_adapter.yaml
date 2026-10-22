@@ -1,0 +1,5 @@
+odom_adapter:
+  ros__parameters:
+    input_topic: /odom_raw
+    output_topic: /odom
+    publish_tf: true

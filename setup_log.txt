@@ -1,0 +1,34 @@
+PROYECTO CAPYTOWN - RC-0 - REGISTRO INICIAL DE PARTE A
+Fecha de las comprobaciones: 2026-10-22 (America/Lima)
+Seccion: S-003
+Numero de grupo: pendiente de confirmar
+
+Entorno observado
+- Windows conectado al escritorio remoto Linux del carro.
+- Usuario y equipo del Linux anfitrion: pi@roscar5.
+- Contenedores activos identificados: micro_ros_agent y ros2_dev.
+- Carpeta compartida: /home/pi/yahboomcar_ws -> /root/yahboomcar_ws.
+- ROS_DOMAIN_ID mostrado por la terminal: 20.
+- Configuracion del dominio en firmware: no inspeccionada directamente.
+- Correspondencia entre dominio y numero de grupo: pendiente de confirmar.
+- Aislamiento respecto a otros grupos: pendiente de verificar.
+
+Comprobaciones anteriores a instalar el adaptador
+- Nodo visible en ros2 node list y rqt_graph: /YB_Car_Node.
+- Topicos publicados mostrados en rqt_graph: /odom_raw, /imu, /scan, /battery.
+- Topicos recibidos mostrados en rqt_graph: /cmd_vel, /beep, /servo_s1, /servo_s2.
+- /odom_raw entrega pose, orientacion, velocidades y covarianzas.
+- Frecuencia aproximada observada de /odom_raw: 11.1 Hz.
+- Frecuencia aproximada observada de /imu: 22 Hz.
+- Estas frecuencias se transcribieron de fotografias; faltan las salidas completas en texto.
+- ros2 bag --help: disponible; muestra record, info, play, list, convert y reindex.
+- rqt_graph: ejecutado; captura con entradas y salidas recibida en la conversacion.
+- capytown_esan: no reconocido por ROS 2; busqueda por nombre en /root y /home sin resultados.
+- /odom y /tf: no aparecian en la lista inicial de topicos.
+
+Estado de esta version
+- Se incorpora un paquete propio capytown_esan con adaptador /odom_raw -> /odom y /tf.
+- Su instalacion y funcionamiento en el carro aun deben verificarse.
+- La disponibilidad de la ayuda de rosbag2 no verifica los plugins de almacenamiento.
+- La Parte A todavia tiene verificaciones y evidencias pendientes.
+- No se han realizado ni registrado calibraciones de r o b_eff.
