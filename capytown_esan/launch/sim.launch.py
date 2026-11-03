@@ -1,4 +1,13 @@
 #!/usr/bin/env python3
+# =====================================================
+# RC-0 / CapyTown - Grupo 7, seccion S-003
+# Equipo responsable del repositorio:
+# Sebastian Pedro Aguirre Acosta - Integracion
+# Anahi Cortez Chinchay - Control
+# Karen Noelia Ramirez Quevedo - Percepcion
+# Valentino Uziel Vara Vargas - Planificacion
+# Firma de documentacion; se respeta la autoria previa.
+# =====================================================
 """Simulacion sin robot: lanza fake_robot (publica /odom, acepta /cmd_vel)."""
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
