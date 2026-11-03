@@ -1,4 +1,13 @@
 #!/usr/bin/env python3
+# =====================================================
+# RC-0 / CapyTown - Grupo 7, seccion S-003
+# Equipo responsable del repositorio:
+# Sebastian Pedro Aguirre Acosta - Integracion
+# Anahi Cortez Chinchay - Control
+# Karen Noelia Ramirez Quevedo - Percepcion
+# Valentino Uziel Vara Vargas - Planificacion
+# Firma de documentacion; se respeta la autoria previa.
+# =====================================================
 """Gira en sitio hasta que /odom acumule target_angle_deg; con el angulo fisico medido
 calcula b_eff_nuevo = b_eff * objetivo / medido y lo registra en calibration_log.csv."""
 import csv
