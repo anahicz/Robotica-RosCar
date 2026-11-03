@@ -1,4 +1,13 @@
 #!/usr/bin/env python3
+# =====================================================
+# RC-0 / CapyTown - Grupo 7, seccion S-003
+# Equipo responsable del repositorio:
+# Sebastian Pedro Aguirre Acosta - Integracion
+# Anahi Cortez Chinchay - Control
+# Karen Noelia Ramirez Quevedo - Percepcion
+# Valentino Uziel Vara Vargas - Planificacion
+# Firma de documentacion; se respeta la autoria previa.
+# =====================================================
 """Lanza odom_corrector con config/wheel_params.yaml.
 El agente micro-ROS ya corre como contenedor `micro_ros_agent`; no se incluye el
 bringup de Yahboom porque su EKF publicaria otro /odom."""
