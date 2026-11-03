@@ -1,4 +1,13 @@
 #!/usr/bin/env python3
+# =====================================================
+# RC-0 / CapyTown - Grupo 7, seccion S-003
+# Equipo responsable del repositorio:
+# Sebastian Pedro Aguirre Acosta - Integracion
+# Anahi Cortez Chinchay - Control
+# Karen Noelia Ramirez Quevedo - Percepcion
+# Valentino Uziel Vara Vargas - Planificacion
+# Firma de documentacion; se respeta la autoria previa.
+# =====================================================
 """Parte E (RC-0): dos gráficos por bag de /odom, compatible con sqlite3 y mcap."""
 import argparse
 import math
