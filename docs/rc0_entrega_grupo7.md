@@ -3,10 +3,10 @@
 ## Equipo y responsabilidades
 | Integrante | Rol |
 |---|---|
-| Sebastian | Integración |
-| Karen | Percepción |
-| Anahi | Control |
-| Valentino | Planificación |
+| Sebastian Pedro Aguirre Acosta | Integración |
+| Karen Noelia Ramirez Quevedo | Percepción |
+| Anahi Cortez Chinchay | Control |
+| Valentino Uziel Vara Vargas | Planificación |
 
 ## Entorno
 - Universidad ESAN, proyecto CapyTown, robot MicroROS-Pi5 / Yahboom.
