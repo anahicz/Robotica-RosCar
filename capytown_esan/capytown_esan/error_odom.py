@@ -1,4 +1,13 @@
 #!/usr/bin/env python3
+# =====================================================
+# RC-0 / CapyTown - Grupo 7, seccion S-003
+# Equipo responsable del repositorio:
+# Sebastian Pedro Aguirre Acosta - Integracion
+# Anahi Cortez Chinchay - Control
+# Karen Noelia Ramirez Quevedo - Percepcion
+# Valentino Uziel Vara Vargas - Planificacion
+# Firma de documentacion; se respeta la autoria previa.
+# =====================================================
 """Lee /odom de un ros2 bag, grafica la trayectoria contra el cuadrado ideal y
 calcula el error de cierre.  Uso: error_odom <bag> [lado_m]"""
 import sys
