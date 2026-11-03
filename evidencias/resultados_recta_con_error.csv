@@ -1,0 +1,8 @@
+fecha,prueba,objetivo_m,valor_real_m,valor_odom_m,error_%,estado
+2026-07-17 03:07:14,recta_1m,1.000,0.9800,1.0006,2.11,objetivo_alcanzado
+2026-07-17 03:08:45,recta_1m,1.000,0.0900,1.0030,1014.41,objetivo_alcanzado
+2026-07-17 03:10:37,recta_1m,1.000,0.9850,1.0100,2.54,objetivo_alcanzado
+2026-07-17 03:12:20,recta_1m,1.000,0.9820,1.0004,1.88,objetivo_alcanzado
+2026-07-17 04:17:21,recta_1m,1.000,0.9530,1.0033,5.28,objetivo_alcanzado
+2026-07-17 04:19:03,recta_1m,1.000,0.9450,1.0016,5.99,objetivo_alcanzado
+2026-07-17 04:22:33,recta_1m,1.000,0.9580,1.0064,5.05,objetivo_alcanzado

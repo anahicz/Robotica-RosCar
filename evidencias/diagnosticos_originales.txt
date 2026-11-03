@@ -1,0 +1,243 @@
+-- VALIDACIÒN GIRO ANTIHORARIO Y DIAGNOSTICO
+Esperando /odom...
+Esperando receptor de /cmd_vel...
+Receptor de /cmd_vel detectado.
+Giro antihorario; seguimiento de /odom y registro CSV
+Giro estimado /odom: 359.8°
+Objetivo odométrico alcanzado
+
+Registro guardado: /root/yahboomcar_ws/src/Grupo7-S003/diagnostico_giro_antihorario.csv
+Total odométrico al detenerse: 360.4°
+root@raspberrypi:~/yahboomcar_ws/src/Grupo7-S003# ./giro_antihorario_360_diagnostico.py
+Esperando /odom...
+Esperando receptor de /cmd_vel...
+Receptor de /cmd_vel detectado.
+Giro antihorario; seguimiento de /odom y registro CSV
+Giro estimado /odom: 359.5°
+Objetivo odométrico alcanzado
+
+Registro guardado: /root/yahboomcar_ws/src/Grupo7-S003/diagnostico_giro_antihorario.csv
+Total odométrico al detenerse: 360.1°
+
+
+[INFO] [1784250046.462045082] [rosbag2_storage]: Opened database 'bags/rc0_val_giro_antihorario1/rc0_val_giro_antihorario1_0.db3' for READ_ONLY.
+Inicio del giro: 1784249857.594 s
+Orden de parada: 1784249882.103 s
+Duración hasta parada: 24.509 s
+
+/odom
+Giro acumulado final: 360.40°
+Giro acumulado al parar: 360.27°
+Giro adicional registrado: 0.13°
+
+/odom_raw
+Giro acumulado final: 421.85°
+Giro acumulado al parar: 421.70°
+Giro adicional registrado: 0.15°
+
+
+-- VALIDACIÓN GIRO HORARIO Y DIAGNOSTICO
+Esperando /odom...
+Esperando receptor de /cmd_vel...
+Receptor de /cmd_vel detectado.
+Giro HORARIO; seguimiento de /odom y registro CSV
+Giro horario estimado /odom: 359.8°
+Objetivo odometrico alcanzado
+
+Angulo al ordenar parada: 360.16°
+Angulo final /odom: 359.28°
+Giro adicional durante frenado: -0.88°
+
+
+
+[INFO] [1784250096.279110405] [rosbag2_storage]: Opened database 'bags/rc0_val_giro_horario1/rc0_val_giro_horario1_0.db3' for READ_ONLY.
+Inicio del giro: 1784249462.856 s
+Orden de parada: 1784249494.705 s
+Duración hasta parada: 31.849 s
+
+/odom
+Giro acumulado final: -359.28°
+Giro acumulado al parar: -359.28°
+Giro adicional registrado: 0.00°
+
+/odom_raw
+Giro acumulado final: -392.80°
+Giro acumulado al parar: -392.80°
+Giro adicional registrado: 0.00°
+
+-- VALIDACIÒN RECTA 1M Y DIAGNOSTICO
+Esperando odometría...
+Avance recto: /odom -> 1.0 m
+Progreso: 0.998 / 1.000 mm
+Objetivo odométrico alcanzado
+
+=== DIAGNOSTICO RC-0 ===
+Mensajes /cmd_vel: 175
+Comandos activos: 145
+Comandos de parada: 30
+
+Primeros 5 comandos:
+v=0.100, w=0.000
+v=0.100, w=0.000
+v=0.100, w=0.000
+v=0.100, w=0.000
+v=0.100, w=0.000
+
+Últimos 8 comandos:
+v=0.000, w=0.000
+v=0.000, w=0.000
+v=0.000, w=0.000
+v=0.000, w=0.000
+v=0.000, w=0.000
+v=0.000, w=0.000
+v=0.000, w=0.000
+v=0.000, w=0.000
+
+Duración entre comandos: 12.052 s
+Orden de parada posterior: Sí
+
+=== /odom ===
+Muestras: 145
+Orientación inicial: -134.15°
+Orientación final: -136.65°
+Avance longitudinal: 1.0026 m
+Desplazamiento lateral: -0.0137 m
+Distancia entre extremos: 1.0027 m
+Error respecto a 1 m: 0.27%
+
+=== /odom_raw ===
+Muestras: 145
+Orientación inicial: -80.55°
+Orientación final: -83.28°
+Avance longitudinal: 1.0316 m
+Desplazamiento lateral: -0.0152 m
+Distancia entre extremos: 1.0317 m
+Error respecto a 1 m: 3.17%
+
+
+Esperando odometría...
+Avance recto: /odom -> 1.0 m
+Progreso: 0.999 / 1.000 mm
+Objetivo odométrico alcanzado
+
+=== DIAGNOSTICO RC-0 ===
+Mensajes /cmd_vel: 176
+Comandos activos: 146
+Comandos de parada: 30
+
+Primeros 5 comandos:
+v=0.100, w=0.000
+v=0.100, w=0.000
+v=0.100, w=0.000
+v=0.100, w=0.000
+v=0.100, w=0.000
+
+Últimos 8 comandos:
+v=0.000, w=0.000
+v=0.000, w=0.000
+v=0.000, w=0.000
+v=0.000, w=0.000
+v=0.000, w=0.000
+v=0.000, w=0.000
+v=0.000, w=0.000
+v=0.000, w=0.000
+
+Duración entre comandos: 12.128 s
+Orden de parada posterior: Sí
+
+=== /odom ===
+Muestras: 146
+Orientación inicial: -140.86°
+Orientación final: -140.82°
+Avance longitudinal: 1.0060 m
+Desplazamiento lateral: 0.0078 m
+Distancia entre extremos: 1.0060 m
+Error respecto a 1 m: 0.60%
+
+=== /odom_raw ===
+Muestras: 146
+Orientación inicial: -87.89°
+Orientación final: -87.84°
+Avance longitudinal: 1.0351 m
+Desplazamiento lateral: 0.0086 m
+Distancia entre extremos: 1.0352 m
+Error respecto a 1 m: 3.52%
+
+
+-- GIRO ANTIHORARIO VARIANTE 1 Y DIAGNOSTICO
+Esperando /odom...
+Esperando receptor de /cmd_vel...
+Receptor de /cmd_vel detectado.
+Giro antihorario; seguimiento de /odom y registro CSV
+Giro estimado /odom: 359.8°
+Objetivo odométrico alcanzado
+
+Registro guardado: /root/yahboomcar_ws/src/Grupo7-S003/diagnostico_giro_antihorario.csv
+Total odométrico al detenerse: 360.1°
+
+
+Inicio del giro: 1784255720.499 s
+Orden de parada: 1784255744.108 s
+Duración hasta parada: 23.608 s
+
+/odom
+Giro acumulado final: 360.44°
+Giro acumulado al parar: 360.31°
+Giro adicional registrado: 0.12°
+
+/odom_raw
+Giro acumulado final: 421.89°
+Giro acumulado al parar: 421.89°
+Giro adicional registrado: 0.00°
+
+
+-- RECTA 1M Y DIAGNOSTICO
+Esperando odometría...
+Avance recto: /odom -> 1.0 m
+Progreso: 0.997 / 1.000 m
+Objetivo odométrico alcanzado
+
+=== DIAGNOSTICO RC-0 ===
+Mensajes /cmd_vel: 173
+Comandos activos: 143
+Comandos de parada: 30
+
+Primeros 5 comandos:
+v=0.100, w=0.000
+v=0.100, w=0.000
+v=0.100, w=0.000
+v=0.100, w=0.000
+v=0.100, w=0.000
+
+Últimos 8 comandos:
+v=0.000, w=0.000
+v=0.000, w=0.000
+v=0.000, w=0.000
+v=0.000, w=0.000
+v=0.000, w=0.000
+v=0.000, w=0.000
+v=0.000, w=0.000
+v=0.000, w=0.000
+
+Duración entre comandos: 11.897 s
+Orden de parada posterior: Sí
+
+=== /odom ===
+Muestras: 143
+Orientación inicial: -137.51°
+Orientación final: -135.46°
+Avance longitudinal: 1.0028 m
+Desplazamiento lateral: 0.0434 m
+Distancia entre extremos: 1.0037 m
+Error respecto a 1 m: 0.37%
+
+=== /odom_raw ===
+Muestras: 143
+Orientación inicial: -38.25°
+Orientación final: -36.14°
+Avance longitudinal: 1.0318 m
+Desplazamiento lateral: 0.0456 m
+Distancia entre extremos: 1.0328 m
+Error respecto a 1 m: 3.28%
+
+

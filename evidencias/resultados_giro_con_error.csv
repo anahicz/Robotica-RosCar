@@ -1,0 +1,4 @@
+fecha,prueba,sentido,objetivo_grados,valor_real_grados,valor_odom_grados,error_%,estado
+2026-07-17 03:17:30,giro_360,antihorario,360.00,190.00,360.71,89.85,objetivo_alcanzado
+2026-07-17 03:19:16,giro_360,antihorario,360.00,387.00,360.51,6.84,objetivo_alcanzado
+2026-07-17 03:20:58,giro_360,antihorario,360.00,358.00,360.89,0.81,objetivo_alcanzado

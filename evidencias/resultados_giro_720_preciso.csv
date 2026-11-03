@@ -1,0 +1,8 @@
+fecha,prueba,sentido,objetivo_grados,valor_real_grados,valor_odom_grados,error_%,error_objetivo_grados,bonus_cumple,estado,factor_real_por_odom,giro_estimado_grados
+2026-07-17 03:55:43,bonus_giro_720,antihorario,720.00,755.00,719.26,4.73,35.00,NO,objetivo_alcanzado,1.00000000,719.26
+2026-07-17 03:57:16,bonus_giro_720,antihorario,720.00,755.00,720.14,4.62,35.00,NO,objetivo_alcanzado,1.00000000,720.14
+2026-07-17 03:58:47,bonus_giro_720,antihorario,720.00,790.00,719.49,8.93,70.00,NO,objetivo_alcanzado,1.00000000,719.49
+2026-07-17 04:03:31,bonus_giro_720,antihorario,720.00,735.00,720.97,1.91,15.00,NO,objetivo_alcanzado,1.00000000,720.97
+2026-07-17 04:06:36,bonus_giro_720,antihorario,720.00,730.00,721.85,1.12,10.00,NO,objetivo_alcanzado,1.00000000,721.85
+2026-07-17 04:09:58,bonus_giro_720,antihorario,720.00,727.00,719.28,1.06,7.00,NO,objetivo_alcanzado,1.00000000,719.28
+2026-07-17 04:12:21,bonus_giro_720,antihorario,720.00,716.00,719.36,0.47,4.00,SI,objetivo_alcanzado,1.00000000,719.36

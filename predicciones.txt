@@ -1,0 +1,32 @@
+RC-0 | GRUPO 7 | SECCIÓN S-003
+PREDICCIONES ANTES DE LAS PRUEBAS
+
+1. AVANCE RECTO
+Velocidad: 0.10 m/s
+Tiempo: 10 segundos
+
+Predicción según cinta: 100 cm
+Predicción según /odom: 100 cm
+
+Justificación:
+En condiciones ideales, el robot debería avanzar
+1 metro. Consideramos inicialmente que la
+odometría coincide con el desplazamiento real.
+
+2. GIRO DE 360 GRADOS
+
+Predicción:
+El robot podría girar menos de 360 grados.
+
+Justificación:
+El deslizamiento de las cuatro ruedas puede hacer
+que el ancho efectivo sea mayor que el ancho físico.
+
+3. ROS_DOMAIN_ID
+
+Predicción:
+Si dos grupos utilizan el mismo dominio,
+podrían descubrir los nodos y tópicos del otro grupo.
+
+Justificación:
+El dominio permite separar las comunicaciones ROS 2.

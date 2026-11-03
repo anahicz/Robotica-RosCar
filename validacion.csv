@@ -1,0 +1,4 @@
+variante,prueba,valor_real,valor_odom,error_%
+A2,recta_1,0.998,1.0027,0.47
+A2,recta_2,0.997,1.0060,0.90
+A2,giro_horario,363,359.28,1.02
