@@ -7,7 +7,7 @@ Este repositorio reunirá el código, las configuraciones, la documentación y l
 **Etapa actual:** RC-0 — Primer arranque y calibración del robot.  
 **Periodo académico:** 2026-2.  
 **Sección:** S-003.  
-**Estado:** paquete de Parte A preparado; instalación y verificación en el carro pendientes.
+**Estado:** RC-0 ejecutado: arranque, calibración A1, validación A2 y gráficas. Evidencias y límites metodológicos en `docs/rc0_entrega_grupo7.md`.
 
 ## Puesta en marcha de la Parte A
 
@@ -98,16 +98,16 @@ Antes de implementar el código se revisará el paquete del laboratorio para man
 
 ## Equipo y responsabilidades
 
-El reto establece cuatro integrantes, uno por rol. Los nombres y las asignaciones están pendientes de completar.
+El equipo de RC-0 está integrado por Sebastian, Karen, Anahi y Valentino, con los roles confirmados siguientes.
 
-| Rol | Responsabilidad en RC-0 |
-| --- | --- |
-| Integración | Arranque, dominio, rosbag2, grabaciones y repositorio. |
-| Control | Calibración de `r` y `b_eff`, y actualización de parámetros. |
-| Planificación | Secuencias reproducibles de movimiento para las pruebas. |
-| Percepción | Lectura de bags y generación de gráficas. |
+| Rol | Responsable | Responsabilidad en RC-0 |
+| --- | --- | --- |
+| Integración | Sebastian | Arranque, dominio, rosbag2, grabaciones y repositorio. |
+| Control | Anahi | Calibración de `r` y `b_eff`, y actualización de parámetros. |
+| Planificación | Valentino | Secuencias reproducibles de movimiento para las pruebas. |
+| Percepción | Karen | Lectura de bags y generación de gráficas. |
 
-También se registrarán el número de grupo, su `ROS_DOMAIN_ID` y los valores finales de `r` y `b_eff`.
+**Grupo:** 7, **sección:** S-003, **ROS_DOMAIN_ID:** 20. **Radio:** `0.031584 m`. **b_eff por ensayo:** `0.27300 m` para 360° antihorario; `0.25500 m` para 360° horario; `0.27400 m` para el bonus antihorario de 720° (valor reportado por el equipo). El `wheel_params.yaml` de referencia conserva `0.27300 m`; los otros valores se aplicaron con `ros2 param set`. La rúbrica de Parte D exige mantener parámetros fijos: los resultados con cambios direccionales requieren esta aclaración.
 
 ## Criterios de desarrollo y documentación
 
@@ -122,3 +122,8 @@ El código, la configuración y las evidencias se organizarán por separado. Los
 
 La documentación se actualizará con los comandos verificados en el laboratorio y las mediciones reales del equipo.
 
+
+
+## Documentación final RC-0 (noviembre de 2026)
+
+Consulta [`docs/rc0_entrega_grupo7.md`](docs/rc0_entrega_grupo7.md) para los roles, las tres configuraciones angulares, la validación A2, el historial de ensayos y las advertencias de la rúbrica. Los registros físicos y los rosbags se conservan en el paquete de entrega RC-0 del equipo.
